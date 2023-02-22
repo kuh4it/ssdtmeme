@@ -1,5 +1,6 @@
 # ssdtmeme
 ### note: i have personally used a modified version of this project on valorant for over 8+ months. it is indeed effective
+##### https://stackoverflow.com/questions/63661249/what-does-write-cr0read-cr0-0x10000-do
 ssdtmeme is a kernel-mode driver designed to hook the System Service Dispatch Table (SSDT) in Windows. The driver is divided into several files that each represent a separate code block, including the driver entry point, the SSDT hooking function, and the communication methods.
 
 ## Driver Entry Point
